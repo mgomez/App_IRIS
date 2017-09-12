@@ -16,20 +16,24 @@ body {
     -webkit-user-select: none;
     /* prevent copy paste, to allow, change 'none' to 'text' */
     font-family: 'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
-    font-size: 12px;
+    font-size: 16px;
     height: 100%;
     margin: 0px;
     padding: 0px;
     text-transform: uppercase;
     width: 100%;
-    background: linear-gradient(-225deg, #fff 0%, #eee 51%, #ddd 100%);
+    background: linear-gradient(-225deg, #828282 0%, #ffffff 51%, #b3b3b3 100%);
 }
+
+
+
+
 
 
 /* Portrait layout (default) */
 
 .app {
-    background: url(../img/icono.png) no-repeat center top;
+    background: url(../img/logo.png) no-repeat center top;
     /* 170px x 200px */
     position: absolute;
     /* position in the center of the screen */
@@ -46,21 +50,43 @@ body {
     /* offset vertical: half of image height and text area height */
     /* offset horizontal: half of text area width */
     background-size: contain;
+    -webkit-animation: fadeIn 2s ease-in-out;
     animation: fadeIn 2s ease-in-out;
 }
 
-@keyframes fadeIn {
+@-webkit-keyframes fadeIn {
     0% {
         opacity: 0;
+        -webkit-transform: scale(0.1) skew(50deg) rotate(2turn);
         transform: scale(0.1) skew(50deg) rotate(2turn);
     }
     50% {
+        -webkit-transform: scale(1.1);
         transform: scale(1.1);
     }
     100% {
         opacity: 1;
     }
 }
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        -webkit-transform: scale(0.1) skew(50deg) rotate(2turn);
+        transform: scale(0.1) skew(50deg) rotate(2turn);
+    }
+    50% {
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+
+
+
 
 
 /* Landscape layout (with min-width) */
@@ -77,9 +103,12 @@ body {
 }
 
 .app-loading {
-    color: #fff;
-    font-size: 16px;
+    color: #000;
+    font-size: 22px;
     text-transform: lowercase;
+    font-weight: 600;
+    background: #fff;
+    border-radius: 5px;
 }
 
 .event {
