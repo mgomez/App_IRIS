@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="consejopyme.onecard.mx" version="1.0.2" ios-CFBundleVersion="201406097">
-    <name>Consejo PYME</name>
-    <description>Consejo PYME App</description>
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.soluxs.kinderiris" version="1.0.2" ios-CFBundleVersion="201406097">
+    <name>Kinder Iris</name>
+    <description>Kinder Iris App</description>
     <author email="00.13.zkr@gmail.com" href="https://www.consejopymech.com/movil">
-        OneCard
+        SOLUXS
     </author>
     <preference name="permissions" value="none" />
     <preference name="orientation" value="portrait" />
