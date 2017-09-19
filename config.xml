@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.soluxs.kinderiris" version="1.0.2" ios-CFBundleVersion="201406097">
-    <name>Kinder Iris</name>
-    <description>Kinder Iris App</description>
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.kinderiris.soluxs" version="1.0.2" ios-CFBundleVersion="201406097">
+    <name>Jardin de Niños IEP</name>
+    <description>Jardin de Niños IEP App</description>
     <author email="00.13.zkr@gmail.com" href="https://www.consejopymech.com/movil">
         SOLUXS
     </author>
