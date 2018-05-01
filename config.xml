@@ -1,28 +1,31 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.kinderiris.soluxs" version="2.0.1" ios-CFBundleVersion="201406097">
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.kinderiris.soluxs" version="2.0.2" ios-CFBundleVersion="201406097">
     <name>Jardin de Niños IEP</name>
     <description>Jardin de Niños IEP App</description>
     <author email="00.13.zkr@gmail.com" href="https://www.consejopymech.com/movil">
         SOLUXS
     </author>
-    <preference name="permissions" value="none" />
-    <preference name="orientation" value="portrait" />
-    <preference name="target-device" value="universal" />
-    <preference name="fullscreen" value="false" />
-    <preference name="webviewbounce" value="true" />
-    <preference name="prerendered-icon" value="true" />
-    <preference name="stay-in-webview" value="true" />
-    <preference name="ios-statusbarstyle" value="black-opaque" />
-    <preference name="detect-data-types" value="true" />
-    <preference name="exit-on-suspend" value="false" />
-    <preference name="show-splash-screen-spinner" value="true" />
-    <preference name="auto-hide-splash-screen" value="true" />
-    <preference name="disable-cursor" value="false" />
-    <preference name="android-installLocation" value="auto" />
+    <preference name='phonegap-version' value='cli-7.0.1' />
     <preference name="android-build-tool" value="gradle" />
-    <preference name="SplashScreenDelay" value="10000" />
-    <preference name="DisallowOverscroll" value="true" />
+    <preference name="android-installLocation" value="auto" />
     <preference name="android-minSdkVersion" value="14" />
+    <preference name="auto-hide-splash-screen" value="true" />
+    <preference name="detect-data-types" value="true" />
+    <preference name="disable-cursor" value="false" />
+    <preference name="DisallowOverscroll" value="true" />
+    <preference name="exit-on-suspend" value="false" />
+    <preference name="fullscreen" value="false" />
+    <preference name="ios-statusbarstyle" value="black-opaque" />
+    <preference name="KeyboardResize" value="true" />
+    <preference name="KeyboardResizeMode" value="native" />
+    <preference name="orientation" value="portrait" />
+    <preference name="permissions" value="none" />
+    <preference name="prerendered-icon" value="true" />
+    <preference name="show-splash-screen-spinner" value="true" />
+    <preference name="SplashScreenDelay" value="2000" />
+    <preference name="stay-in-webview" value="true" />
+    <preference name="target-device" value="universal" />
+    <preference name="webviewbounce" value="true" />
     <!-- Core plugins -->
     <plugin name="cordova-plugin-camera" spec="2.4.1" />
     <plugin name="cordova-plugin-network-information" spec="2.0.1" />
